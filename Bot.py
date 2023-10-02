@@ -5,7 +5,7 @@ import mysql.connector
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "jojo2755",
+    "password": "",
     "database": "ATHENS"
 }
 conn = mysql.connector.connect(**db_config)
@@ -104,4 +104,4 @@ async def makesqd(ctx: SlashContext, game: str, squadsname: str, squadleaderdisc
     else:
         await ctx.send('Invalid game selection. Choose from Fortnite, Valorant, CODM, Minecraft.')
 Intitialize()
-bot.start("MTE1ODM2NzMxMzg3NjIzODM3Ng.GaFUbp.R8B1CNgKtf0x0dyyb7i852RIJkaYPaxcty7nwE")
+bot.start("")
